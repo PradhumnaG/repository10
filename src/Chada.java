@@ -1,5 +1,5 @@
 
-// Java Program to move all zeros to the end
+
 
 public class Chada{
     public static void main(String[] args)
@@ -9,17 +9,17 @@ public class Chada{
         int j = 0;
         for (int i = 0; i < n; i++) {
             if (A[i] != 0) {
-                //   Swap - A[j] , A[i]
-                swap(A, j, i); // Partitioning the array
+
+                swap(A, j, i);
                 j++;
             }
         }
         for (int i = 0; i < n; i++) {
-            System.out.print(A[i] + " "); // Print the array
+            System.out.print(A[i] + " ");
         }
     }
 
-    // Utility function to swap two elements of an array
+
     public static void swap(int[] A, int a, int b)
     {
         int temp = A[a];
